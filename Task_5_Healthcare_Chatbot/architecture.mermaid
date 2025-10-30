@@ -1,6 +1,7 @@
-flowchart LR
-A[User Query (Web/Mobile)] --> B[Chatbot (AWS Lex / Dialogflow)]
-B --> C[NLP Model: BERT / Rasa via Lambda]
-C --> D[Database: DynamoDB / Firestore]
-D --> E[Response Generation & Appointment Booking]
-E --> F[Monitoring: CloudWatch / Dialogflow Analytics]
+graph LR
+    A["User (Patient via Web / Mobile App)"] --> B["Chatbot Interface (AWS Lex / Dialogflow)"]
+    B --> C["NLP Model (BERT / Rasa via Lambda Function)"]
+    C --> D["Database (DynamoDB / Firestore)"]
+    D --> E["Appointment Scheduler & Response System"]
+    E --> F["Monitoring and Analytics (CloudWatch / Dialogflow Reports)"]
+    F --> G["Feedback Loop for Continuous Improvement"]
