@@ -24,7 +24,7 @@ Preprocessing: Image filtering, normalization.
 - Reduced waste and downtime  
 
 ## Architecture Diagram
-Refer to `architecture.mermaid`.
+Refer to [Architecture Diagram](architecture.mermaid)
 
 ## Optional Notes
 Dataset: Product images labeled as Defective / Non-defective.
