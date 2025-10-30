@@ -24,7 +24,7 @@ Preprocessing: Text cleaning, intent tagging, and response mapping.
 - Improved patient engagement and satisfaction  
 
 ## Architecture Diagram
-Refer to `architecture.mermaid`.
+Refer to [Architecture Diagram](architecture.mermaid)
 
 ## Optional Notes
 Dataset: Hospital FAQs, chat history, appointment records.
