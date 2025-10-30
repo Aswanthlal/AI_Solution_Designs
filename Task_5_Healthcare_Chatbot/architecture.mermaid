@@ -1,7 +1,7 @@
 graph LR
     A["User (Patient via Web / Mobile App)"] --> B["Chatbot Interface (AWS Lex / Dialogflow)"]
     B ---> C["NLP Model (BERT / Rasa via Lambda Function)"]
-    C --> D["Database (DynamoDB / Firestore)"]
-    D --> E["Appointment Scheduler & Response System"]
-    E --> F["Monitoring and Analytics (CloudWatch / Dialogflow Reports)"]
-    F --> G["Feedback Loop for Continuous Improvement"]
+    C ---> D["Database (DynamoDB / Firestore)"]
+    D ---> E["Appointment Scheduler & Response System"]
+    E ---> F["Monitoring and Analytics (CloudWatch / Dialogflow Reports)"]
+    F ---> G["Feedback Loop for Continuous Improvement"]
