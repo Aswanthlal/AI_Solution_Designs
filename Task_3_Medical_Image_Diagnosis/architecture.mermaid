@@ -1,6 +1,7 @@
-flowchart LR
-A[Medical Images (X-ray/CT)] --> B[Cloud Storage (S3 / GCP Storage)]
-B --> C[Preprocessing: Resize, Normalize, Augment]
-C --> D[Model: CNN / Transfer Learning (ResNet / MobileNet)]
-D --> E[Deployment: Lambda / Streamlit App]
-E --> F[Monitoring: Model Performance Dashboard]
+graph LR
+    A["Medical Images (X-ray / CT Scan)"] --> B["Cloud Storage (AWS S3 / GCP Storage)"]
+    B --> C["Preprocessing (Image Resizing, Normalization, Augmentation)"]
+    C --> D["CNN / Transfer Learning Model (ResNet / MobileNet on SageMaker / Azure ML)"]
+    D --> E["Inference Function (AWS Lambda / Azure Function)"]
+    E --> F["Web App (Streamlit / Flask)"]
+    F --> G["Performance Monitoring (Dashboard / Model Monitor)"]
