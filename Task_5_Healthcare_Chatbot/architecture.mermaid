@@ -1,0 +1,6 @@
+flowchart LR
+A[User Query (Web/Mobile)] --> B[Chatbot (AWS Lex / Dialogflow)]
+B --> C[NLP Model: BERT / Rasa via Lambda]
+C --> D[Database: DynamoDB / Firestore]
+D --> E[Response Generation & Appointment Booking]
+E --> F[Monitoring: CloudWatch / Dialogflow Analytics]

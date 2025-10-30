@@ -1,0 +1,6 @@
+flowchart LR
+A[Patient Data: Records, Lab Results, Vitals] --> B[Data Preprocessing: Missing Value Handling, Normalization]
+B --> C[Model Training: Random Forest / XGBoost (SageMaker / Azure ML)]
+C --> D[Database: AWS RDS / Firestore]
+D --> E[Deployment: Flask / Streamlit Dashboard]
+E --> F[Monitoring: CloudWatch / Stackdriver]

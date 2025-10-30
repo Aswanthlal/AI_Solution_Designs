@@ -1,0 +1,6 @@
+flowchart LR
+A[Assembly Line Cameras] --> B[Cloud Storage (S3 / Azure Blob)]
+B --> C[Model Training: CNN / YOLO]
+C --> D[Edge Deployment: Factory IoT Device]
+D --> E[Real-Time Defect Detection]
+E --> F[Dashboard & Alerts: Streamlit / CloudWatch]

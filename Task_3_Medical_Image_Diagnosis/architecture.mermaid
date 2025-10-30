@@ -1,0 +1,6 @@
+flowchart LR
+A[Medical Images (X-ray/CT)] --> B[Cloud Storage (S3 / GCP Storage)]
+B --> C[Preprocessing: Resize, Normalize, Augment]
+C --> D[Model: CNN / Transfer Learning (ResNet / MobileNet)]
+D --> E[Deployment: Lambda / Streamlit App]
+E --> F[Monitoring: Model Performance Dashboard]
