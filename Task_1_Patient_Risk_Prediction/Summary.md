@@ -25,7 +25,7 @@ Data → EDA and Preprocessing → Model Training (SageMaker/Azure ML) → Risk 
 - Improved healthcare efficiency & patient care quality  
 
 ## Architecture Diagram
-Refer to [Architecture Diagram](Task_1_Patient_Risk_Prediction/architecture.mermaid)
+Refer to [Architecture Diagram](architecture.mermaid)
 
 ## Optional Notes
 Dataset includes patient history, vitals, lab results, and diagnosis codes.
