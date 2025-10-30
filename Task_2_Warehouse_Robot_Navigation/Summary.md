@@ -32,7 +32,7 @@ An integrated AI-based navigation and maintenance system.
 - Improved operational efficiency and real-time monitoring  
 
 ## Architecture Diagram
-Refer to `architecture.mermaid`.
+Refer to [Architecture Diagram](architecture.mermaid)
 
 ## Optional Notes
 Data includes LIDAR readings, camera feeds, and navigation logs.
