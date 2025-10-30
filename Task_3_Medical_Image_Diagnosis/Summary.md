@@ -24,7 +24,7 @@ Preprocessing: Image resizing, normalization, augmentation.
 - Real-time reporting and insights  
 
 ## Architecture Diagram
-Refer to `architecture.mermaid`.
+Refer to [Architecture Diagram](architecture.mermaid)
 
 ## Optional Notes
 Dataset: Chest X-ray dataset (normal vs pneumonia).
