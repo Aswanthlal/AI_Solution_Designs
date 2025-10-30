@@ -1,6 +1,7 @@
-flowchart LR
-A[Assembly Line Cameras] --> B[Cloud Storage (S3 / Azure Blob)]
-B --> C[Model Training: CNN / YOLO]
-C --> D[Edge Deployment: Factory IoT Device]
-D --> E[Real-Time Defect Detection]
-E --> F[Dashboard & Alerts: Streamlit / CloudWatch]
+graph LR
+    A["Camera Feeds (from Assembly Line)"] --> B["Cloud Storage (AWS S3 / Azure Blob)"]
+    B --> C["Preprocessing (Image Filtering, Normalization)"]
+    C --> D["Defect Detection Model (CNN / YOLO on SageMaker / Azure ML)"]
+    D --> E["Edge Deployment (on Factory Robot / IoT Device)"]
+    E --> F["Quality Dashboard (Streamlit / Flask)"]
+    F --> G["Monitoring & Alerts (CloudWatch / Azure Monitor)"]
