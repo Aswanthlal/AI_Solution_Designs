@@ -23,6 +23,8 @@ Each task includes a one-page summary, architecture diagram, and suggested cloud
 **Impact:** Faster delivery, reduced collisions, minimized downtime.  
  [View Details](Task_2_Warehouse_Robot_Navigation/Summary.md)
 
+ [Architecture Diagram](Task_2_Warehouse_Robot_Navigation/architecture.mermaid)
+
 ---
 
 ##  Task 3 – AI-Powered Medical Image Diagnosis
@@ -31,6 +33,8 @@ Each task includes a one-page summary, architecture diagram, and suggested cloud
 **Cloud:** AWS SageMaker / Azure ML / Lambda  
 **Impact:** Faster and more accurate diagnosis, reduced workload for radiologists.  
  [View Details](Task_3_Medical_Image_Diagnosis/Summary.md)
+
+ [Architecture Diagram](Task_3_Medical_Image_Diagnosis/architecture.mermaid)
 
 ---
 
@@ -41,6 +45,8 @@ Each task includes a one-page summary, architecture diagram, and suggested cloud
 **Impact:** Instant defect alerts, consistent product quality, reduced waste.  
  [View Details](Task_4_Assembly_Line_Quality_Control/Summary.md)
 
+ [Architecture Diagram](Task_4_Assembly_Line_Quality_Control/architecture.mermaid)
+
 ---
 
 ##  Task 5 – Healthcare Chatbot for Patient Support
@@ -49,6 +55,8 @@ Each task includes a one-page summary, architecture diagram, and suggested cloud
 **Cloud:** AWS Lambda / DynamoDB / Dialogflow Analytics  
 **Impact:** 24×7 patient support, reduced response time, higher satisfaction.  
  [View Details](Task_5_Healthcare_Chatbot/Summary.md)
+
+ [Architecture Diagram](Task_5_Healthcare_Chatbot/architecture.mermaid)
 
 ---
 
