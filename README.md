@@ -11,6 +11,7 @@ Each task includes a one-page summary, architecture diagram, and suggested cloud
 **Cloud:** AWS SageMaker / Azure ML  
 **Impact:** Early detection, reduced readmission, improved patient care.  
  [View Details](Task_1_Patient_Risk_Prediction/Summary.md)
+ [View Details](Task_1_Patient_Risk_Prediction/architecture.mermaid)
 
 ---
 
